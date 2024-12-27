@@ -10,7 +10,7 @@ const studies = await Astro.glob("../pages/studies/*.md");
 const certificates = await Astro.glob("../pages/certificates/*.md");
 const blogs = await Astro.glob("../pages/blogs/*.md");
 const contact = await Astro.glob("../pages/contact/*.md");
-const PDF = "/cv-20240219.pdf";
+const restricted_area = await Astro.glob("../pages/restricted_area/*.md");
 ---
 
 <div class="join join-vertical gap-1">
@@ -65,7 +65,7 @@ const PDF = "/cv-20240219.pdf";
             description={item.compiledContent()}
             tags={item.frontmatter.tags}
             url={item.frontmatter.url}
-            url_name={"View project"}
+            url_name={"Redacted"}
           />
         );
       })
@@ -89,46 +89,6 @@ const PDF = "/cv-20240219.pdf";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Blogs"} icon={"carbon:pen"}>
-    {
-      blogs.map((item) => {
-        return (
-          <Card
-            title={item.frontmatter.title}
-            timeframe={item.frontmatter.date}
-            description={item.compiledContent()}
-            url={item.frontmatter.url}
-            url_name={item.frontmatter.url_name}
-          />
-        );
-      })
-    }
-  </AccordionLayout>
-
-  <AccordionLayout title={"Files"} icon={"carbon:volume-file-storage"}>
-    <div class="flex justify-center w-full">
-      <div
-        class="card card-compact card-bordered border-[oklch(var(--s))] w-96 md:w-112 lg:w-128 hover:shadow-lg transition-all"
-      >
-        <figure>
-          <object data={PDF} type="application/pdf" width="100%"></object>
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">Resume</h2>
-          <p>View and download my resume by clicking on the button below</p>
-          <div class="card-actions justify-end">
-            <a target="_blank" href={PDF}>
-              <button class="btn btn-outline">
-                <p>Download resume</p>
-                <Icon name="carbon:document-pdf" class="w-6 h-6 ml-1" />
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </AccordionLayout>
-
   <AccordionLayout title={"Contact"} icon={"carbon:location-person"}>
     <div class="flex flex-wrap content-around gap-4 justify-center">
       {
@@ -145,3 +105,38 @@ const PDF = "/cv-20240219.pdf";
     </div>
   </AccordionLayout>
 </div>
+
+  <AccordionLayout title={"Blogs"} icon={"carbon:pen"}>
+    {
+      blogs.map((item) => {
+        return (
+          <Card
+            title={item.frontmatter.title}
+            timeframe={item.frontmatter.date}
+            description={item.compiledContent()}
+            url={item.frontmatter.url}
+            url_name={item.frontmatter.url_name}
+          />
+        );
+      })
+    }
+  </AccordionLayout>
+
+  <AccordionLayout title={"Restricted Area"} icon={"mdi:shield"}>
+    <div class="flex flex-wrap content-around gap-4 justify-center">
+      {
+        restricted_area.map((item) => {
+          return (
+            <ContactCard
+              url={item.frontmatter.url}
+              url_name={item.frontmatter.title}
+              icon={item.frontmatter.icon}
+            />
+          );
+        })
+      }
+    </div>
+  </AccordionLayout>
+</div>
+
+

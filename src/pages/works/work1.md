@@ -1,14 +1,12 @@
 ---
-title: Senior Detective
-date: 1990 - Present
-url: http://ropibbe.nf/savadru
-location: Los Angeles, California
-org: Los Angeles Police Department (LAPD)
-tags: ["Law Enforcement", "Police Work", "Tactical Operations", "Case Management"]
+title: High-school Student
+date: 2022 - present
+url: https://www.nordangliaeducation.com/bvis-hanoi
+location: 72A Nguyen Trai, Hanoi
+org: Nord Anglia Education
+tags: ["Student", "Computer Science"]
 ---
 
-- Lead investigations into organized crime, drug trafficking, and high-profile criminal activities.
-- Conducted extensive surveillance operations utilizing advanced equipment and techniques to gather critical intelligence.
-- Collaborated with federal agencies such as the FBI and DEA on joint task forces to dismantle criminal syndicates.
-- Played a pivotal role in numerous undercover operations, successfully infiltrating criminal organizations and gathering actionable evidence for prosecution.
-- Trained and mentored junior officers in surveillance tactics, undercover operations, and tactical maneuvers.
+- Currently studying 2 A Level subjects (Mathematic and Physic).
+- Sitting in the corner of the library room and chilling with Java books
+- Get hated by everyone in school ☠️

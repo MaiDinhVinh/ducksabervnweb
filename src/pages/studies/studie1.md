@@ -1,15 +1,12 @@
 ---
-title: Bachelor of Science in Criminal Justice
-location: University of California, Los Angeles (UCLA)
-url: http://foeberoz.gm/kuj
-institute: University of California
-date: 1970-1975
+title: High-school student
+location: 72A Nguyen Trai
+url: https://www.nordangliaeducation.com/bvis-hanoi
+institute: Nord Anglia Education
+date: 2022 - Present
 tags:
   [
-    "Criminal Justice",
-    "Law Enforcement",
-    "Legal Studies",
-    "Public Safety",
-    "Court System",
+    "Student", 
+    "Computer Science"
   ]
 ---

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Red background -->
+  <rect width="128" height="128" fill="#DA251D"/>
+  
+  <!-- Yellow star -->
+  <path 
+    d="M64 24 L75.72 59.56 L113.4 59.56 L83.16 82.44 L94.88 118 L64 95.12 L33.12 118 L44.84 82.44 L14.6 59.56 L52.28 59.56 L64 24Z"
+    fill="#FFFF00"
+  />
+</svg>
