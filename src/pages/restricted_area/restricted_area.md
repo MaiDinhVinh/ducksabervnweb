@@ -1,5 +1,5 @@
 ---
-title: Ducksabervn's Private Server portal
+title: DucksaberVN's Google Workspace Service
 icon: carbon:cloud
-url: vn-cluster.cloud.ducksabervn.com
+url: https://drive.google.com/a/ducksabervn.com
 ---
