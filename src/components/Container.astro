@@ -104,36 +104,3 @@ const restricted_area = await Astro.glob("../pages/restricted_area/*.md");
       }
     </div>
   </AccordionLayout>
-
-  <AccordionLayout title={"Blogs"} icon={"carbon:pen"}>
-    {
-      blogs.map((item) => {
-        return (
-          <Card
-            title={item.frontmatter.title}
-            timeframe={item.frontmatter.date}
-            description={item.compiledContent()}
-            url={item.frontmatter.url}
-            url_name={item.frontmatter.url_name}
-          />
-        );
-      })
-    }
-  </AccordionLayout>
-
-  <AccordionLayout title={"Restricted Area"} icon={"mdi:shield"}>
-    <div class="flex flex-wrap content-around gap-4 justify-center">
-      {
-        restricted_area.map((item) => {
-          return (
-            <ContactCard
-              url={item.frontmatter.url}
-              url_name={item.frontmatter.title}
-              icon={item.frontmatter.icon}
-            />
-          );
-        })
-      }
-    </div>
-  </AccordionLayout>
-</div>

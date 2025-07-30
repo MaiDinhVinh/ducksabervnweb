@@ -1,13 +1,9 @@
 ---
 title: about
 name: "Vinh Dinh Mai"
-designation: "Students (Oracle Certified Associate Developer - Java SE 8)"
-location: DucksaberVN's homelab
+designation: "Oracle Certified Associate Developer"
+location: 192.168.1.1
 pronouns: "he/him"
 website: "ducksabervn.com (formerly known as vinhdev.vn)"
 ---
 
-- A student who really like Computer Science (Mother language: Java - not Vietnamese of course) 💀<p>
-- Absolute zero social life 😭🙏<p>
-- Zero gf 👍<p>
-- Zero friend 👍<p>
