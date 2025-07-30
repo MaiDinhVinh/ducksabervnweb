@@ -8,7 +8,7 @@ import * as about from "../pages/about/about.md";
     class="flex flex-col md:flex-col items-center gap-4 w-full max-w-2xl"
   >
     <div
-      class="flex-shrink-0 w-20 md:w-24 rounded-full shadow-sm overflow-hidden"
+      class="flex-shrink-0 w-48 md:w-48 rounded-full shadow-sm overflow-hidden drop-shadow-xl"
     >
       <img
         alt="avatar"
@@ -19,15 +19,13 @@ import * as about from "../pages/about/about.md";
 
     <div class="text-center">
       <div class="flex flex-col items-center justify-center mb-2">
-        <div class="flex items-center gap-2">
-          <h1 class="text-3xl font-extrabold tracking-tight md:text-3xl">
-            {about.frontmatter.name}
-          </h1>
-          <div class="badge w-max text-sm font-light badge-outline shadow-lg">
-            {about.frontmatter.pronouns}
-          </div>
-        </div>
-      </div>
+  <h1 class="text-3xl font-extrabold tracking-tight md:text-3xl">
+    {about.frontmatter.name}
+  </h1>
+  <div class="badge w-max text-sm font-light badge-outline shadow-lg mt-2">
+    {about.frontmatter.pronouns}
+  </div>
+</div>
       <h2 class="text-lg mb-2 text-secondary">
         {about.frontmatter.designation}
       </h2>
