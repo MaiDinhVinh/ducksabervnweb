@@ -28,33 +28,27 @@ import { Icon } from "astro-icon/components";
     <meta name="generator" content={Astro.generator} />
     <title>DucksaberVN</title>
   </head>
-  <body class="flex flex-col min-h-screen items-center justify-center p-4">
-    <!-- Theme Toggle - positioned outside the main panel -->
-
-    <!-- Main Content Panel with Blur Effect -->
-    <div class="content-panel">
-      <Header />
-      
-      <div class="divider mx-auto h-fit max-w-3xl w-full flex flex-nowrap bg-secondary">
-      </div>
-      
-      <main class="flex-grow max-h-[60vh] overflow-y-auto py-2">
-        <div class="container">
-          <Container />
-        </div>
-      </main>
-      
-      <Footer class="flex justify-center items-center py-4" />
+  <body class="flex flex-col min-h-screen items-center justify-start p-4 pt-8">
+  <!-- Main Content Panel with Blur Effect -->
+  <div class="content-panel">
+    <Header />
+    
+    <div class="divider mx-auto h-fit max-w-3xl w-full flex flex-nowrap bg-secondary">
     </div>
-  </body>
+    
+    <!-- Allow natural expansion instead of fixed height scrolling -->
+    <main class="flex-grow py-2">
+      <div class="container">
+        <Container />
+      </div>
+    </main>
+    
+    <Footer class="flex justify-center items-center py-4" />
+  </div>
+</body>
 </html>
 
 <style is:global>
-
-  html, body {
-  overflow: hidden;
-  height: 100vh;
-}
   body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -85,7 +79,7 @@ import { Icon } from "astro-icon/components";
   position: relative;
   width: 90vw;
   max-width: 900px;
-  max-height: 100vh;
+  max-height: 200vh;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -123,7 +117,7 @@ import { Icon } from "astro-icon/components";
     .content-panel {
       width: 95vw;
       padding: 1.5rem;
-      max-height: 90vh;
+      max-height: 200vh;
     }
   }
 
