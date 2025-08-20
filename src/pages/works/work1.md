@@ -1,12 +1,15 @@
 ---
-title: High-school Student
-date: 2022 - present
+title: BVIS High-school Student
+date: 2022 - 2025
 url: https://www.nordangliaeducation.com/bvis-hanoi
 location: 72A Nguyen Trai, Hanoi
 org: Nord Anglia Education
-tags: ["Student", "Computer Science"]
+tags: ["Student", "A Level", "Advanced Placement"]
 ---
+A Level Exam May/June Series result:
 
-- Currently studying 2 A Level subjects (Mathematic and Physic).
-- Sitting in the corner of the library room and chilling with Java books
-- Get hated by everyone in school ☠️
+- 93% (A*) on Mathematics
+- 85% (A) on Physics
+
+Advanced Placement 2025 Exam result:
+- AP Computer Science A: 5/5
