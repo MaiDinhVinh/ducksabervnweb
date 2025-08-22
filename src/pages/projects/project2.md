@@ -1,5 +1,5 @@
 ---
-title: Creator
+title: DuckyEmulator - Creator
 url: https://www.youtube.com/watch?v=lESicXKcLZ4&t=13s
 tags: ["Java", "Pet Project", "JavaFX", "MySQL", "JDBC"]
 date: Jan 2025 - July 2025

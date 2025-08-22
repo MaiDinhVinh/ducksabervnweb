@@ -1,5 +1,5 @@
 ---
-title: Founder & IT System Administrator
+title: Tiny Tensor - Founder & IT System Administrator
 url: https://drive.google.com/drive/folders/1Kc5zy-HJvYyNVQPwJKx6S_VlFmxcfo2b
 tags: ["AI", "Tiny ML Arduino"]
 date: July 2024 - Aug 2024
