@@ -1,5 +1,5 @@
 ---
-title: Founder & CEO
+title: Arthroverse Laboratory - Founder & CEO
 url: https://arthroverse.com
 tags: ["Artificial Intelligence", "Java", "Start Up"]
 date: March 2025 - Present
